@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google Drive shortcut",
+  "description": "This extension opens Google Drive in a new tab.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "drive.png",
+    "default_popup": ""
+  },
+"background": { "scripts": ["contents.js"] },
+
+  "permissions": [
+	"https://drive.google.com",
+	"tabs"
+  ]
+
+}
